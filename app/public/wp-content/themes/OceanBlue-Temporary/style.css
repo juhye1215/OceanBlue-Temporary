@@ -1,0 +1,112 @@
+/*
+Theme Name: Ocean Blue Temporary
+Author: Juju
+Description: This is Ocean Blue Hawaii Temporary template in 2022. 
+Version: 1.0
+*/
+
+/*
+ * Globals
+ */
+
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+}
+
+
+/*
+ * Base structure
+ */
+
+body {
+  height:100vh;
+}
+
+@font-face {
+  font-family: Avenir;
+  src: url(./font/Avenir.ttc);
+}
+
+
+/*
+ * Header
+ */
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+
+.text-content{
+  background-color: rgb(255, 255, 255, 0.7);
+  max-width: 800px;
+  padding:10% 5%;
+  margin: 0;
+  height: auto;
+  font-family: Avenir;
+}
+
+.logo{
+ max-width: 230px;
+ margin-bottom: 5rem;
+}
+.logo img{
+  max-width: 230px;
+  width: 100%;
+  height:auto;
+}
+
+@media only screen and (max-width: 767px) { 
+  .text-content{
+    margin:0;
+    padding: 25% 15%;
+  }
+}
+
+.lead{
+  margin-top:2rem;
+}
+.lead i{
+  font-size: 1rem;
+  color:#fff;
+  background-color: #3b3b3a;
+  border : 1px solid #3b3b3a;
+  border-radius: 50%;
+  padding:0.5rem;
+  margin-right: 8px;
+}
+.lead i:hover{
+  background-color: #646463;
+  border:1px solid #646463;
+}
+
+.lead a{
+  padding:0;
+}
+
+.fa-facebook-f{
+  padding: 0.5rem 0.65rem !important;
+}
