@@ -25,9 +25,9 @@
     <style>
     main{
       background:url(<?php echo get_theme_mod('showcase_image', get_bloginfo('template_url').'img/ocean.jpg'); ?>);
-      background-position: center;
+      background-position: center center;
       background-repeat: no-repeat;
-      background-size: auto;
+      background-size: cover;
      }
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -49,12 +49,9 @@
 <?php wp_head(); ?>
   </head>
 
-
-<!--본문 -->
-<body class="d-flex text-center text-white bg-dark">
-    
-<div class="cover-container d-flex w-100 p-3 flex-column">
-
+<body >
+  
+<div>
   <!-- <header class="mb-auto">
     <div>
       <nav class="nav nav-masthead justify-content-center float-md-end">

@@ -24,7 +24,11 @@ Version: 1.0
  */
 
 body {
-  height:100vh;
+  margin: 0;
+  padding:0;
+}
+main{
+  height: 100vh;
 }
 
 @font-face {
@@ -62,12 +66,16 @@ body {
 
 .text-content{
   background-color: rgb(255, 255, 255, 0.7);
+  height: 100vh;
   max-width: 800px;
-  padding:10% 5%;
+  padding:0 6%;
   margin: 0;
-  height: auto;
   font-family: Avenir;
+  font-size: 1.125rem;
+  display: flex;
+  align-items: center;
 }
+
 
 .logo{
  max-width: 230px;
@@ -79,10 +87,14 @@ body {
   height:auto;
 }
 
-@media only screen and (max-width: 767px) { 
+@media only screen and (max-width: 575px) { 
   .text-content{
-    margin:0;
-    padding: 25% 15%;
+     padding: 0 15%;
+  }
+}
+@media only screen and (max-width: 1199px) { 
+  .text-content{
+     padding: 0 10%;
   }
 }
 
@@ -105,7 +117,9 @@ body {
 
 .lead a{
   padding:0;
+  text-align: center;
 }
+
 
 .fa-facebook-f{
   padding: 0.5rem 0.65rem !important;

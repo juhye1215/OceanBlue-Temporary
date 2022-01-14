@@ -15,6 +15,4 @@ function wp_theme_support(){
 add_action('after_setup_theme','wp_theme_support');
 
 
-
-
 ?>
